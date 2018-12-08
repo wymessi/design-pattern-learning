@@ -5,8 +5,6 @@ package com.wymessi.decorator;
  */
 public class Whip extends CondimentDecorator {
 
-    private Beverage beverage;
-
     public Whip(Beverage beverage) {
         this.beverage = beverage;
     }
